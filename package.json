@@ -1,0 +1,33 @@
+{
+  "name": "bs-react-ga",
+  "version": "0.0.1",
+  "description": "Bucklescript bindings for react-ga (Google Analytics)",
+  "scripts": {
+    "test": "jest --watch",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viebel/bs-react-ga.git"
+  },
+  "keywords": [
+    "bucklescript",
+    "compression",
+    "nodejs",
+    "middleware"
+  ],
+  "author": "Yehonathan Sharvit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/viebel/bs-react-ga/issues"
+  },
+  "homepage": "https://github.com/viebel/bs-react-ga#readme",
+  "devDependencies": {
+    "bs-platform": "^2.2.2"
+  },
+  "dependencies": {
+    "react-ga": "^2.4.1"
+  }
+}

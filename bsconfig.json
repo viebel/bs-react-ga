@@ -1,0 +1,7 @@
+{
+  "name": "bs-react-ga",
+  "refmt": 3,
+  "bs-dependencies": [],
+  "bsc-flags": ["-bs-super-errors"],
+  "sources": [{ "dir": "src" }]
+}
