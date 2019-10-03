@@ -39,5 +39,6 @@ GA must be initialized using `initialize` before any of the other tracking funct
 ```reason
 ReactGa.initialize("<you GA id>");
 ReactGa.pageView(location.pathname ++ location.hash ++ location.search);
+ReactGa.event(ReactGa.eventOptions(~category: "Foo", ~action: "Bar", ()));
 ```
 
